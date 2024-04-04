@@ -6,6 +6,6 @@ public class MainClass {
         System.out.println("My calculation is "+ cal.calculate(5,6));
         System.out.println(SimpleInterest.calculate(100000,8,5));
         System.out.println(CompoundInterest.calculateCompoundInterest(9,20,200000));
-
+        System.out.println(HouseLoan.calculateHouseLoan(10,20,2000000));
     }
 }
